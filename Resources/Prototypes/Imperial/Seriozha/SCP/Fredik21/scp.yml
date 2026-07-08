@@ -4253,6 +4253,10 @@
   name: Invisibility in hand
   description: DO NOT PUT HER ON THE FLOOR!! Press Z to activate invisibility.
   components:
+  - type: Sprite
+    sprite: Clothing/Head/Soft/cargosoft.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Soft/cargosoft.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 0.02
@@ -8360,7 +8364,7 @@
   flavor: bitter
   color: "#63806e"
   metabolisms:
-    Narcotic:
+    Bloodstream:
       effects:
       - !type:ModifyStatusEffect
         effectProto: StatusEffectSeeingRainbow
@@ -8732,7 +8736,7 @@
   flavor: sweet
   color: "#4682B4"
   metabolisms:
-    Medicine:
+    Bloodstream:
       effects:
       - !type:PopupMessage
         type: Local
@@ -9375,7 +9379,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - WallWhiteSCPTimedDespawn
@@ -9396,7 +9399,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - WallBlackSCPTimedDespawn
@@ -11800,7 +11802,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPinfectedNDA020
@@ -11821,7 +11822,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPZombie
@@ -11865,7 +11865,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPAvelGhost
@@ -11886,7 +11885,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialMem
@@ -13190,7 +13188,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - tesla1
@@ -13211,7 +13208,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - tesla2
@@ -14714,7 +14710,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPZombieShadow
@@ -14735,7 +14730,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPJellyShadow
@@ -14756,7 +14750,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPnda131AShadow
@@ -14777,7 +14770,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPDOCShadow
@@ -14798,7 +14790,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPFiremanShadow
@@ -14819,7 +14810,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPAvelShadow
@@ -14840,7 +14830,6 @@
         - sprite: Mobs/Animals/mouse.rsi
           state: icon-2
         - state: timed
-    - type: Timer
     - type: TimedSpawner
       prototypes:
         - ImperialSCPDedShadow
@@ -17074,7 +17063,7 @@
   physicalDesc: Имеется подпись - "А"
   color: "#00FFFF"
   metabolisms:
-    Medicine:
+    Bloodstream:
       effects:
       - !type:PopupMessage
         type: Local
@@ -17091,7 +17080,7 @@
   flavor: sweet
   color: "#87CEEB"
   metabolisms:
-    Medicine:
+    Bloodstream:
       effects:
       - !type:PopupMessage
         type: Local
@@ -17108,7 +17097,7 @@
   flavor: sweet
   color: "#60008F"
   metabolisms:
-    Medicine:
+    Bloodstream:
       effects:
       - !type:PopupMessage
         type: Local

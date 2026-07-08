@@ -37,9 +37,10 @@
     - map: [ "shoes" ]
     - map: [ "ears" ]
     - map: [ "eyes" ]
-    - map: [ "belt" ]
+    #- map: [ "belt" ]
     - map: [ "id" ]
     - map: [ "outerClothing" ]
+    - map: [ "belt" ] ## Imperial рпс над бронежилетами
     - map: [ "back" ]
     - map: [ "neck" ]
     - map: [ "suitstorage" ]
@@ -64,11 +65,6 @@
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
       state: body-overlay-2
-      visible: false
-
-    - map: [ "clownedon" ] # Dynamically generated
-      sprite: "Effects/creampie.rsi"
-      state: "creampie_human"
       visible: false
 
 - type: entity
